@@ -105,3 +105,114 @@ with open(OUT_BASE_COUNTS, "w", encoding="utf-8") as f:
     json.dump(counts_out, f, ensure_ascii=False, indent=2)
 
 print("Saved baseline counts:", OUT_BASE_COUNTS.resolve())
+
+#RESULTS
+# Loaded entity mentions: 395666
+# Unique entity strings: 70515
+# Top 20 entity strings:
+#   10511  two
+#    9666  one
+#    8904  first
+#    8260  three
+#    5392  four
+#    4614  christian
+#    4150  indian
+#    3609  english
+#    3420  five
+#    3074  portugal
+#    2764  six
+#    2722  second
+#    2682  england
+#    2426  seven
+#    2056  eight
+#    2042  ten
+#    1933  spain
+#    1750  twenty
+#    1577  china
+#    1573  half
+# Filtered entity mentions: 216582
+
+# Top 15 ORG:
+#     379  constantinople
+#     371  tyrone
+#     305  parliament
+#     227  senate
+#     192  banda
+#     186  christendom
+#     168  cathay
+#     167  cortes
+#     161  nanquin
+#     146  army
+#     142  pegu
+#     135  caesar
+#     135  inca
+#     134  connaght
+#     127  tigris
+
+# Top 15 GPE:
+#    3074  portugal
+#    2677  england
+#    1933  spain
+#    1577  china
+#    1371  india
+#    1211  egypt
+#     958  jerusalem
+#     907  rome
+#     826  persia
+#     739  peru
+#     724  france
+#     693  italy
+#     654  mexico
+#     650  ireland
+#     633  london
+
+# Top 15 PERSON:
+#     800  john
+#     625  thomas
+#     620  lib
+#     581  turk
+#     522  alexander
+#     452  solomon
+#     390  david
+#     384  chinois
+#     357  henry
+#     353  abraham
+#     353  bantam
+#     348  peter
+#     338  fez
+#     328  paul
+#     317  william
+
+# Top 15 LOC:
+#    1162  africa
+#     815  asia
+#     754  europe
+#     391  sea
+#     354  the red sea
+#     249  the south sea
+#     140  east
+#     121  south
+#     113  west
+#     102  the sea coast
+#      98  the ocean sea
+#      94  north
+#      85  mars
+#      84  alps
+#      76  the north sea
+
+# Top 15 NORP:
+#    4614  christian
+#    4150  indian
+#    1943  english
+#    1204  spanish
+#    1079  french
+#     946  greek
+#     851  dutch
+#     849  persian
+#     726  egyptian
+#     633  italian
+#     441  latin
+#     431  arabian
+#     410  jewish
+#     401  german
+#     373  irish
